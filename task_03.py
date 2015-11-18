@@ -15,8 +15,8 @@ class CustomLogger(object):
         Constructor
         Args:
             logfilename (String): Full path of log file
-        Returns:
-            None
+        Attributes:
+            msgs (List): Log messages buffer.
         Examples:
             >>> myvar = CustomLogger('/a/b/c/d/mylog.txt')
         """
